@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+  <title>Fábio Romão | Back-end Developer</title>
+
+  <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+  <meta name="theme-color" content="#36d1dc" />
+
+  <link rel="preload" as="style" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="./javascript/scrollreveal.min.js"></script>
+  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
+
+</head>
+
+<body>
+  <div id="hero">
+    <section class="container">
+      <h1 class="hero-title">
+        Oi, meu nome é <span class="text-color-main name">Fábio</span>
+        <br />
+        E sou desenvolvedor back-end.
+      </h1>
+      <p class="hero-cta">
+        <a class="cta-btn cta-btn--hero" href="#about">Sobre mim</a>
+      </p>
+    </section>
+    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Sobre mim</h2>
+      <div class="row about-wrapper">
+        <div class="about-wrapper__image">
+          <img class="img-fluid" src="./assets/profile.jpeg" alt="Profile Image" width="450" height="350" />
+        </div>
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+            Sou acadêmico de Engenharia de Software com habilidades em back-end Java e Ruby, utilizando
+            tecnologias como Spring Boot, Hibernate, Ruby on Rails e entre outros. Além disso, tenho experiência
+            em linguagens JavaScript e Python.
+          </p>
+          <span class="about-wrapper__cta">
+            <a href="https://www.linkedin.com/in/fabiiork" target="_blank" class="cta-btn cta-btn--resume">Visualizar
+              currículo</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projetos</h2>
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">ABA Manager</h3>
+            <p class="project-wrapper__text-info">
+              Fiz parte de um projeto que teve como objetivo a construção de um sistema que utiliza o método
+              ABA, onde psicólogos poderiam relatar as consultas com seus pacientes, assim como as atividades
+              propostas e seus resultados. Realizei toda a estrutura back-end da aplicação utilizando Spring
+              Boot, Spring Security, e JasperReports para a geração de relatórios. Também contribui para o
+              front-end utilizando Thymeleaf e TailwindCss.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://github.com/FabiioRK/ABAManager" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">Visualizar código</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <div class="thumbnail rounded">
+              <img src="./assets/logoaba.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+            </div>
+          </div>
+        </article>
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Project Manager</h3>
+            <p class="project-wrapper__text-info">
+              Sistema web para gerenciamento e avaliação de projetos de iniciação científica. Apresenta um layout suave,
+              formulários eficientes e opções de personalização. Projeto realizado utilizando Ruby on Rails para a
+              disciplina de Unidade Extensionista em Soluções para Internet.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://github.com/projeto-extensao-2023-2/project-manager" target="_blank"
+                rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">Visualizar código</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <div class="thumbnail rounded">
+              <img src="./assets/project.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+            </div>
+          </div>
+        </article>
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Cofre eletrônico</h3>
+            <p class="project-wrapper__text-info">
+              Realizado na disciplina de Soluções para IoT, o projeto teve como intuito a implementação dos
+              conhecimentos adquiridos na disciplina utilizando microcontroladores e recursos adicionais necessários.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://github.com/FabiioRK/Cofre-Eletronico-Catolica" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">Visualizar código</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <div class="thumbnail rounded">
+              <img src="./assets/cofre-eletronico.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="back-to-top" aria-label="go back to top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://www.twitter.com/fabiiork" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/fabiiork" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/fabiiork" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.github.com/fabiiork" target="_blank" rel="noopener noreferrer" aria-label="github">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <hr />
+      <p class="footer__text">
+        &copy; <span id="year"></span> - Portifólio - Fábio César Romão Filho</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear()
+  </script>
+  <script src="./javascript/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="./javascript/valtilt.js"></script>
+</body>
+
+</html>
